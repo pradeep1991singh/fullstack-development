@@ -1,7 +1,7 @@
 # Introduction
-- Full stack application development with front-end technologies
+Full stack application development with front-end technologies
 
-### Tech stack
+### Tech stacks
 
 - Package Manager NodeJS: [nodejs](https://nodejs.org/en/)
 -	REST API: [expressjs](http://expressjs.com/)
@@ -13,7 +13,7 @@
 #### Installation
 - Switch to api-server root and install all dependencies mentioned in `package.json`
 ```
-npm install
+$ npm install
 ```
 
 #### Run DB server
@@ -22,18 +22,18 @@ npm install
 - Run mongoDB, start two terminal, one for mongoDB server and other for mongoDB shell
 - First terminal (run mongoDB server)
 ```
-mongond
+$ mongond
 ```
 - Second terminal (run mongoDB shell)
 ```
-mongo
+$ mongo
 ```
 - Create new db `mydb` and new collection `todos`. In mongoDB we have collections in place of tables - [documentation](https://docs.mongodb.com/manual/core/data-modeling-introduction/)
 
 #### Run api server
 - Switch `fullstack-development/api-server` folder open terminal and type
 ```
-nodemon
+$ nodemon
 ```
 
 - Now you should able to see your api server running at [http://localhost:8080/](http://localhost:8080/)
@@ -44,7 +44,7 @@ nodemon
 - Switch to angular-app root and install all devDependencies mentioned in `package.json`.
 - It will install gulp and required gulp packages for serving angular app
 ```
-npm install
+$ npm install
 ```
 
 #### Server structure
@@ -85,7 +85,7 @@ npm install
 - Lets run our app using `gulp`, open new terminal and type (Note our api server should be running)
 
 ```
-gulp
+$ gulp
 ```
 
 You should be seeing an angular-app running, Create new todo and those will be start listing under Todo lists.
