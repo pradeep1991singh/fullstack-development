@@ -1,0 +1,41 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "todo app written in angular 1",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pradeep1991singh/fullstack-development/angular-app"
+  },
+  "keywords": [
+    "todo",
+    "app",
+    "angularjs",
+    "1",
+    "front-end",
+    "mobile",
+    "application",
+    "full",
+    "stack",
+    "development"
+  ],
+  "author": "pradeep singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pradeep1991singh/fullstack-development/issues"
+  },
+  "homepage": "https://github.com/pradeep1991singh/fullstack-development/angular-app#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-inject": "^4.2.0",
+    "gulp-natural-sort": "^0.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-webserver": "^0.9.1",
+    "run-sequence": "^1.2.2"
+  }
+}

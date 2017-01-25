@@ -1,0 +1,22 @@
+<h3>{{welcomeMessage}}</h3>
+
+<h4>Create new todo</h4>
+<form>
+  <div class="form-group">
+    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="title" ng-model="title">
+  </div>
+  <div class="form-group">
+    <textarea class="form-control" rows="3" placeholder="description" ng-model="body"></textarea>
+  </div>
+  <button type="button" class="btn btn-default" ng-click="newTodo()">Create</button> 
+</form>
+
+<hr/>
+
+<h4>Todo lists</h4>
+<div class="list-group">
+  <a href="javascript:void(0)" class="list-group-item" ng-repeat="todo in todoList"    ng-click="todoDetails(todo)">
+    {{todo.title}} 
+    <span class="badge">{{todo.status}}</span>
+  </a>
+</div>

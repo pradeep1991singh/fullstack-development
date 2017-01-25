@@ -1,0 +1,35 @@
+{
+  "name": "todo",
+  "description": "todo app written in angular 1",
+  "main": "index.html",
+  "authors": [
+    "pradeep singh"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "todo",
+    "app",
+    "angularjs",
+    "1",
+    "front-end",
+    "mobile",
+    "application",
+    "full",
+    "stack",
+    "development"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-route": "^1.6.1",
+    "bootstrap": "^3.3.7",
+    "angular-resource": "^1.6.1"
+  }
+}

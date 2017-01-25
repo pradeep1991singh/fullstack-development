@@ -1,0 +1,10 @@
+db.student.insert({
+    title: 'hello world',
+    body: 'create hello world program',
+    status: 'todo'
+},{
+    title: 'guess game',
+    body: 'create a simple guess the number game',
+    status: 'todo'
+});
+

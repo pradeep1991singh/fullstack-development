@@ -35,3 +35,8 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# dev Dependency
+api-server/node_modules
+angular-app/node_modules
+angular-app/bower_components

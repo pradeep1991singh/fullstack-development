@@ -1,0 +1,20 @@
+<h3>Todo details page</h3>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">{{todo.title}}</h3>
+  </div>
+  <div class="panel-body">
+    <p>{{todo.body}}</p>
+    <p>
+      <span>Status: {{todo.status}}</span>
+    </p>
+    
+    <button type="button" 
+      class="btn btn-default" 
+      ng-if="todo.status!='done'" 
+      ng-click="done()">
+      Done
+    </button>      
+  </div>
+</div>
